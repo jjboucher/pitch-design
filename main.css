@@ -1,0 +1,23 @@
+/* Desktop screen */
+@media (min-width: 801px) {
+    .playing-card {
+        height: 100px;
+        width: 75px;
+    }
+}
+
+/* Mobile screen */
+@media (max-width: 800px) {
+    .playing-card {
+        height: 75px;
+        width: 55px;
+    }
+}
+
+.playing-card {
+    background-color: white;
+}
+
+.trump-card {
+    background-color: #fccb68;
+}
